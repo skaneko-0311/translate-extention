@@ -1,0 +1,12 @@
+{
+    "version": "1.0.2",
+    "manifest_version": 2,
+    "name": "Translate Extention",
+    "content_scripts": [
+        {
+            "matches": ["https://*/*"],
+            "js": ["jquery.min.js", "myscript.js"]
+        }
+      ]
+
+}
