@@ -5,7 +5,7 @@
     "content_scripts": [
         {
             "matches": ["https://*/*"],
-            "js": ["jquery.min.js", "myscript.js"]
+            "js": ["aws-sdk.min.js","jquery.min.js", "myscript.js"]
         }
       ]
 
