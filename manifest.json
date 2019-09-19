@@ -7,6 +7,9 @@
             "matches": ["https://*/*"],
             "js": ["aws-sdk.min.js","jquery.min.js", "myscript.js"]
         }
-      ]
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
 
 }
